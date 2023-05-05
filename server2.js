@@ -6,7 +6,7 @@ const app=http.createServer((req,res)=>
     if(req.url==='/')
     {
         res.writeHead(200,{"Content-type":"text/plain"})
-        res.end("Home page")
+        res.end("reys reys reys")
     }
 
     else if( req.url==='/about')
