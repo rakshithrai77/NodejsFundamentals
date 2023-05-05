@@ -1,6 +1,7 @@
 const Event= require('node:events')
 const fs=require('node:fs/promises');
-
+const os=require('node:os')
+console.log(os.cpus().length)
 const crypto=require("node:crypto")
 let start=Date.now()
 const MAX_CALLS=20;
