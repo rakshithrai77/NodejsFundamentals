@@ -8,7 +8,7 @@
     "start": "node test.js"
   },
   "engines": {
-    "node": ">=14 <15"
+    "node": ">=14 <17"
   },
   "author": "",
   "license": "ISC",
